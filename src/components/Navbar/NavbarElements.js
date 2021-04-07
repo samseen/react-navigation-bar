@@ -6,9 +6,11 @@ export const Nav = styled.nav`
  background: #000;
  height: 80px;
  display:flex;
- justify-content: space-between;
+//  justify-content: space-between; // For Navbar 1
  padding: 0.5rem calc((100vw - 1000px) / 2);
  z-index: 10;
+
+ justify-content: flex-start; //For Navbar 3
 `
 
 export const NavLink = styled(Link)`
@@ -46,6 +48,8 @@ export const NavMenu = styled.div`
  //margin-right: -24px; //For navbar 1
  
 //  margin-right:24px; //For navbar 2
+width: 100vw; //For navbar 3
+white-space: nowrap; //For navbar 3
 
  @media screen and (max-width: 768px) {
      display: none;
@@ -56,6 +60,9 @@ export const NavBtn = styled.nav`
  display: flex;
  align-items: center;
  margin-right: 24px;
+
+ justify-content: flex-end; //For navbar 3
+ width: 100vw; //For navbar 3
 
  @media screen and (max-width: 768px) {
     display: none;
