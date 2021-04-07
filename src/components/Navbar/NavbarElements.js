@@ -43,9 +43,9 @@ export const Bars = styled(FaBars)`
 export const NavMenu = styled.div`
  display: flex;
  align-items: center;
- //margin-right: -24px; //Uncomment for navbar 1
+ //margin-right: -24px; //For navbar 1
  
- margin-right:24px; //Comment for navbar 1
+//  margin-right:24px; //For navbar 2
 
  @media screen and (max-width: 768px) {
      display: none;
@@ -73,7 +73,7 @@ export const NavBtnLink = styled(Link)`
  transition: all 0.2s ease-in-out;
  text-decoration: none;
 
- margin-left: 24px; //Uncomment for Navbar 1
+ //margin-left: 24px; //For Navbar 2
 
  &:hover {
     transition: all 0.2s ease-in-out;

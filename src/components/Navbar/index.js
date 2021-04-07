@@ -22,11 +22,11 @@ const Navbar = () => {
                     <NavLink to="/sign-up" activeStyle>
                         Sign Up
                     </NavLink>
-                    <NavBtnLink to='signin'>Sign In</NavBtnLink>
+                    {/* <NavBtnLink to='signin'>Sign In</NavBtnLink> */} {/*For Navbar 2*/}
                 </NavMenu>
-                {/* <NavBtn>
+                <NavBtn>
                     <NavBtnLink to='signin'>Sign In</NavBtnLink>
-                </NavBtn> */} {/*Uncomment for Navbar 1*/}
+                </NavBtn> {/*For Navbar 1*/}
             </Nav>
         </>
     )
